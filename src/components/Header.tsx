@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Header = () => {
@@ -7,13 +8,6 @@ const Header = () => {
           <img src="/lovable-uploads/daf1d81c-d29d-4488-9978-90668dafd799.png" alt="QDotZ Logo" className="h-12 w-auto animate-fade-in" />
           <h1 className="text-event-gold font-serif text-2xl font-bold animate-fade-in">QDotZ</h1>
         </div>
-        <nav className="hidden md:flex">
-          <ul className="flex space-x-6 text-white">
-            <li><Link to="/" className="hover:text-event-skyblue transition-colors">Home</Link></li>
-            <li><Link to="/" className="hover:text-event-skyblue transition-colors">About</Link></li>
-            <li><Link to="/" className="hover:text-event-skyblue transition-colors">Contact</Link></li>
-          </ul>
-        </nav>
       </div>
     </header>;
 };
