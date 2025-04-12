@@ -22,7 +22,7 @@ const EventDetails = () => {
         <p className="text-white font-serif text-xl md:text-2xl mb-4">
           In the presence of
         </p>
-        <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold mb-2 gold-gradient bg-clip-text animate-shine text-amber-300">
+        <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold mb-2 gold-gradient bg-clip-text animate-shine text-transparent">
           Dr K Thyagarajah
         </h2>
         <p className="text-white text-lg md:text-xl">
