@@ -13,7 +13,7 @@ const EventHeader = () => {
       </h2>
       <h1 style={{
       animationDelay: '0.6s'
-    }} className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mt-4 mb-2 tracking-wide animate-fade-in gold-gradient bg-clip-text animate-shine text-amber-300">
+    }} className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mt-4 mb-2 tracking-wide animate-fade-in gold-gradient bg-clip-text animate-shine text-amber-300 text-center">
         Q DoTZ S.T.E.M. INDIA PVT LTD
       </h1>
       <p className="text-event-skyblue uppercase tracking-[0.3em] text-sm md:text-base animate-fade-in" style={{
