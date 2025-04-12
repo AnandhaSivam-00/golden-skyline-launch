@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 
 const VenueInfo = () => {
   const openGoogleMaps = () => {
-    window.open('https://maps.google.com/?q=Hotel+Savera+Chennai', '_blank');
+    window.open('https://maps.app.goo.gl/TEMptDhJzCSRkx2J9', '_blank');
   };
 
   return (
