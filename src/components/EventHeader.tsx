@@ -3,7 +3,7 @@ import React from 'react';
 
 const EventHeader = () => {
   return (
-    <header className="pt-8 pb-4 text-center animate-fade-in">
+    <header className="pt-8 pb-4 text-center">
       <h1 className="text-white font-serif text-3xl md:text-4xl mb-3 animate-fade-in" style={{ animationDelay: '0.2s' }}>
         You are Cordially invited for the
       </h1>

@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { Button } from '@/components/ui/button';
+import { Smartphone } from 'lucide-react';
 
 const EventFooter = () => {
   return (
@@ -12,7 +14,13 @@ const EventFooter = () => {
         
         <div className="bg-event-gold/80 text-event-dark max-w-lg mx-auto py-4 px-6 rounded shadow-md animate-float">
           <p className="font-semibold mb-2">Dress - Formal | Business Attire</p>
-          <p className="font-semibold">R.S.V.P - Mr. Harinivas B S - 9944337399</p>
+          <div className="flex justify-center items-center gap-2 font-semibold">
+            <p>R.S.V.P -</p>
+            <Button variant="outline" className="bg-event-dark text-white border-white/20 hover:bg-event-dark/80 flex items-center gap-2">
+              <Smartphone className="w-4 h-4" />
+              Contact Mr. Harinivas B S - 9944337399
+            </Button>
+          </div>
         </div>
       </div>
     </footer>
