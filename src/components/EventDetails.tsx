@@ -32,7 +32,7 @@ const EventDetails = () => {
 
       <div style={{
       animationDelay: '0.7s'
-    }} className="backdrop-blur-sm p-6 rounded-lg border border-event-gold/20 shadow-lg animate-fade-in gold-gradient bg-clip-text bg-amber-200">
+    }} className="backdrop-blur-sm p-6 rounded-lg border border-event-gold/20 shadow-lg animate-fade-in gold-gradient bg-clip-text bg-yellow-300">
         <div className="flex items-center justify-center gap-3 mb-4 text-event-gold">
           <Calendar className="w-5 h-5" />
           <p className="font-bold text-xl md:text-2xl">Date : 14<sup>th</sup> April 2025</p>
