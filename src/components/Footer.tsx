@@ -1,17 +1,10 @@
-
 import React from 'react';
-
 const Footer = () => {
-  return (
-    <footer className="py-6 bg-event-dark border-t border-event-gold/20">
+  return <footer className="py-6 border-t border-event-gold/20 bg-zinc-800">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <img 
-              src="/lovable-uploads/daf1d81c-d29d-4488-9978-90668dafd799.png" 
-              alt="QDotZ Logo" 
-              className="h-10 w-auto"
-            />
+            <img src="/lovable-uploads/daf1d81c-d29d-4488-9978-90668dafd799.png" alt="QDotZ Logo" className="h-10 w-auto" />
           </div>
           
           <div className="text-center md:text-right">
@@ -19,8 +12,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
